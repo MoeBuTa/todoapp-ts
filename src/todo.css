@@ -1,0 +1,82 @@
+
+.app-container {
+    max-width: 90vh;
+    margin: 20px auto;
+    /*background-color: #466a82;*/
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    /*border-radius: 20px;*/
+    /*padding: 20px;*/
+}
+
+.app-container .prompt-container {
+    background-color: #696666;
+    padding: 20px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.app-container .prompt-container Button{
+    margin-top: 20px;
+    float: right;
+}
+
+
+.app-container .task-container {
+    margin-top: 20px;
+    background-color: #824a22;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    /*justify-content: center;*/
+    /*display: flex;*/
+}
+
+/*.app-container .task-container Button {*/
+/*    display: inline-flex;*/
+/*}*/
+
+
+.app-container .task-container .task-name {
+
+    word-wrap: break-word;
+    font-size: 1.1em;
+}
+
+.react-datepicker-wrapper {
+    height: 100%;
+}
+
+.react-datepicker {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #aaa;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.react-datepicker__header {
+    text-align: center;
+    background-color: #2456c9;
+    border-bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-top: 8px;
+    position: relative;
+
+}
+
+.react-datepicker__today-button {
+    background: #2456c9;
+    border-top: 0;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    clear: left;
+}
+
+
+
