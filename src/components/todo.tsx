@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button, Alert, InputGroup } from 'react-bootstrap';
 import DatePicker from 'react-datepicker';
-// import 'react-datepicker/dist/react-datepicker.css';
+import 'react-datepicker/dist/react-datepicker.css';
 import '../todo.css';
 
 interface Task {
